@@ -1,6 +1,6 @@
+#if defined SWITCH
 #Include <stdio.h>
 #include <math.h>
-#if defined SWITCH
 typedef struct{
   double x,y;
    } XY;
