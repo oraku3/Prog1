@@ -1,5 +1,5 @@
-#include <stdio.h>
 #if defined SWITCH
+#include <stdio.h>
 typedef struct{
   double x,y;
    } XY;
