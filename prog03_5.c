@@ -1,4 +1,3 @@
-#if defined SWITCH
 #Include <stdio.h>
 #include <math.h>
 typedef struct{
@@ -11,6 +10,9 @@ typedef struct{
 TRY TRY1,TRY2;
 TRY InputShape(TRY);
 double GetArea(TRY);
+
+#if defined SWITCH
+
 int main(){
   TRY1 = InputShape(TRY1);
   GetArea(TRY1);
