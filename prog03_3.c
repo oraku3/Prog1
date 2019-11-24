@@ -1,4 +1,3 @@
-#if defined SWITCH
 #include <stdio.h>
 typedef struct{
   double x,y;
@@ -8,6 +7,8 @@ typedef struct{
   XY temp[3];
 } TRY;
 TRY TRY1,TRY2;
+
+#if defined SWITCH
 
 void InputShape(TRY);
 int main(){
