@@ -9,15 +9,14 @@ typedef struct{
 TRY TRY1,TRY2;
 
 #if defined SWITCH
-
-void InputShape(TRY);
+TRY InputShape(TRY);
 int main(){
   TRY1 = InputShape(TRY1);
   TRY2 = InputShape(TRY2);
   return 0;
 }
 #endif
-void InputShape(TRY try){
+TRY InputShape(TRY try){
   printf("vertex 1: ");
   scanf("%lf%lf",&try.temp[0].x,&try.temp[0].y);
   printf("vertex 2: ");
