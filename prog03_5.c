@@ -8,10 +8,11 @@ typedef struct{
   XY temp[3];
 } TRY;
 TRY TRY1,TRY2;
-TRY InputShape(TRY);
-double GetArea(TRY);
 
 #if defined SWITCH
+
+TRY InputShape(TRY);
+double GetArea(TRY);
 
 int main(){
   TRY1 = InputShape(TRY1);
